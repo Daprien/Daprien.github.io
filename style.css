@@ -1,0 +1,96 @@
+/* styles.css */
+
+/* Réinitialisation de quelques styles par défaut */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, table, th, td, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Styles pour les titres */
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+/* Styles pour les paragraphes */
+p {
+    margin-bottom: 1rem;
+}
+
+/* Styles pour les liens */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Styles pour les images */
+img {
+    max-width: 15%;
+    height: auto;
+}
+
+/* Styles pour les listes */
+ul, ol {
+    margin-bottom: 1rem;
+    padding-left: 20px;
+}
+
+/* Styles pour les tableaux */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+
+th, td {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f8f8f8;
+}
+
+/* Styles pour les formulaires */
+
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Styles pour les divisions */
+div {
+    margin-bottom: 1rem;
+}
+
+/* Styles pour les articles */
+article {
+    margin-bottom: 1rem;
+}
+
+/* Styles pour l'en-tête */
+header {
+    background-color: #454545;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Styles pour le pied de page */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
